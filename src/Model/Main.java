@@ -32,9 +32,9 @@ public class Main {
                         int id = scanner.nextInt();
                         System.out.println("Digite o Nome: ");
                         String nome = scanner.next();
-                        System.out.println("Difite o CPF: ");
+                        System.out.println("Digite o CPF: ");
                         String cpf = scanner.next();
-                        System.out.println("Difite a Idade: ");
+                        System.out.println("Digite a Idade: ");
                         int idade = scanner.nextInt();
 
                         PessoaFisica pessoaFisica = new PessoaFisica(nome, id, cpf, idade);
